@@ -10,12 +10,40 @@
 .primary-color {
   color: #fd6e0a;
 }
+.dark-2{
+    color: #474747;
+}
+.primary-btn{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
 
 /* Nav Section  */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 230px;
 }
 .nav-title {
   font-size: 45px;
   font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    /* display: inline; */
+    margin-right: 51px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
 }
